@@ -11,7 +11,7 @@ export default function Nav(props) {
       {/* <div className="bg-parchment"> */}
       <h1 className="text-sunset text-4xl font-bold p-10">
         <a href={"/"}>
-        Recipe Book.
+        Tasty Eats.
         </a>
       </h1>
       <div className="new-set-of-styles" >

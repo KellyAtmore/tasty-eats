@@ -1,11 +1,11 @@
 Tasty Eats 
 =========
 
-A web app that allows users to collaboratively create recipes which list out the needed ingredients and steps. 
+A web app that allows users to create, discover and share their favorite recipes. 
 
 Target audience: Home cooks 
 
-It was build by Kelly Atmore, William Wijaya, Dominik Wrona 
+It was built by Kelly Atmore, William Wijaya, Dominik Wrona 
 
 
 ## User Stories
@@ -17,31 +17,11 @@ User:
 
 - As a user, I can create a new recipe. 
 
-- I can view a list of all maps because I have a profile on the site
+- As a user, I can delete my own recipes
 
-- As a user, I can NOT delete existing recipes
-
-- As a user, I can NOT edit existing recipes 
+- As a user, I can edit my own recipes 
  
 - As a user when I create a new recipe I can add a title, ingredients, directions, image, prep time, portion size, difficulty
-
-## Page Features 
-
-- Regular users can see a list of the available maps;
-
-- Regular users can view a map;
-
-- A map can contain many points;
-
-- Each point can have: a title, description, and image;
-
-- Authenticated user can create maps;
-
-- Authenticated user can modify maps (add, edit, remove points);
-
-- Authenticated user can favourite a map;
-
-- Authenticated user can see their indicated favourite maps and maps they've contributed to
 
 ## Warnings & Tips
 
@@ -56,7 +36,14 @@ npm start
 ## Project Stack
 __Front-End:__ React, Tailwind CSS
 __Back-End:__ Express
-__Database:__ Postgres
+__Database:__ Postgres, Firebase
+
+## Screenshots
+
+!['Home View'](client/src/docs/home.png)
+!['Create a Recipe'](client/src/docs/create.png)
+!['Full Recipe View'](client/src/docs/recipe_view.png)
+!['Delete or Edit a Recipe'](client/src/docs/delete_edit.png)
 
 ## Dependencies
 
