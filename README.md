@@ -68,4 +68,3 @@ __Database:__ Postgres, Firebase
 
 !['Routes'](client/src/docs/Routes.jpg)
 
-## Finished App Screenshots
